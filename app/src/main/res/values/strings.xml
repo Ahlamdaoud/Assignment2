@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fitness</string>
+
+    <string-array name="gender">
+
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+
+
+        <string name="Fitness">Timer</string>
+
+    </resources>
+

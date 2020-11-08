@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#CDCBC7"
+
+
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="159dp"
+        android:text="Name"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/idname"
+        android:layout_width="205dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="510dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:text="Welcome to fitness "
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="231dp"
+        android:text="Height"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/idheight"
+        android:layout_width="205dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="445dp"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="301dp"
+        android:text="Weight"
+        android:textSize="30dp" />
+
+
+    <EditText
+        android:id="@+id/idweight"
+        android:layout_width="205dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="378dp"
+        android:inputType="number|numberDecimal" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="400dp"
+        android:text="Gender"
+        android:textSize="30dp" />
+
+    <Spinner
+        android:id="@+id/idgender"
+        android:layout_width="175dp"
+        android:layout_height="51dp"
+
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="397dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp" />
+
+    <Button
+        android:id="@+id/BMI"
+        android:layout_width="211dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="99dp"
+        android:background="#009688"
+        android:text="BMI" />
+
+    <Button
+        android:id="@+id/SAVE"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+
+        android:layout_marginBottom="185dp"
+        android:background="#009688"
+        android:onClick="btnSaveOnClick"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/timer"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginBottom="15dp"
+        android:background="#009688"
+        android:text="Timer" />
+
+    <TextView
+        android:id="@+id/bmiRes"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="104dp"
+        android:text="Result" />
+
+
+</RelativeLayout>
